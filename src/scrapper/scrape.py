@@ -10,14 +10,6 @@ from selenium.webdriver.chrome.options import Options
 from urllib.parse import quote
 
 
-
-from selenium import webdriver
-from selenium.webdriver.chrome.options import Options
-from bs4 import BeautifulSoup as bs
-from urllib.parse import quote
-import sys
-from src.exception import CustomException  # Assuming this is a custom exception class
-
 class ScrapeReviews:
     def __init__(self, product_name: str, no_of_products: int):
         """

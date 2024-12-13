@@ -1,4 +1,4 @@
-import pandas as pd  # Importing pandas for data manipulation
+import pandas as pd  #pandas for data manipulation
 import streamlit as st  # Importing Streamlit for web application interface
 from src.cloud_io import MongoIO
 
